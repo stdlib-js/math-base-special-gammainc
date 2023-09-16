@@ -58,6 +58,7 @@
     "@stdlib/math-base-special-gammaln": "^0.0.6",
     "@stdlib/math-base-special-ln": "^0.0.6",
     "@stdlib/math-base-special-log1p": "^0.0.6",
+    "@stdlib/math-base-special-log1pmx": "github:stdlib-js/math-base-special-log1pmx#main",
     "@stdlib/math-base-special-max": "^0.0.7",
     "@stdlib/math-base-special-min": "^0.0.7",
     "@stdlib/math-base-special-pow": "^0.0.7",
