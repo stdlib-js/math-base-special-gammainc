@@ -66,7 +66,8 @@
     "@stdlib/math-base-special-sqrt": "^0.2.0",
     "@stdlib/math-base-tools-continued-fraction": "^0.2.0",
     "@stdlib/math-base-tools-evalpoly": "^0.2.0",
-    "@stdlib/math-base-tools-sum-series": "^0.2.0"
+    "@stdlib/math-base-tools-sum-series": "^0.2.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/constants-float64-eps": "^0.2.0",
