@@ -112,7 +112,7 @@ The relationship between the two functions is `Γ(a,x) = γ(a,x) + Γ(a)`.
 ## Usage
 
 ```javascript
-import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@esm/index.mjs';
+import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.2.1-esm/index.mjs';
 ```
 
 #### gammainc( x, s\[, regularized\[, upper ]] )
@@ -177,7 +177,7 @@ y = gammainc( 2.0, 0.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@esm/index.mjs';
+import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.2.1-esm/index.mjs';
 
 var i;
 var x;
