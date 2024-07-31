@@ -112,6 +112,11 @@ The relationship between the two functions is `Γ(a,x) = γ(a,x) + Γ(a)`.
 ## Usage
 
 ```javascript
+import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-gammainc/tags). For example,
+
+```javascript
 import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.2.2-deno/mod.js';
 ```
 
@@ -172,7 +177,7 @@ y = gammainc( 2.0, 0.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.2.2-deno/mod.js';
+import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@deno/mod.js';
 
 var i;
 var x;
