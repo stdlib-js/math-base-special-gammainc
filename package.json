@@ -62,7 +62,7 @@
     "@stdlib/math-base-special-max": "^0.3.0",
     "@stdlib/math-base-special-min": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/math-base-special-powm1": "^0.3.0",
+    "@stdlib/math-base-special-powm1": "^0.3.1",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
     "@stdlib/math-base-tools-continued-fraction": "^0.2.2",
     "@stdlib/math-base-tools-evalpoly": "^0.2.2",
