@@ -42,6 +42,7 @@
     "@stdlib/constants-float64-gamma-lanczos-g": "^0.2.2",
     "@stdlib/constants-float64-max": "^0.2.2",
     "@stdlib/constants-float64-max-ln": "^0.2.2",
+    "@stdlib/constants-float64-max-safe-nth-factorial": "^0.1.0",
     "@stdlib/constants-float64-min-ln": "^0.2.2",
     "@stdlib/constants-float64-pi": "^0.2.2",
     "@stdlib/constants-float64-pinf": "^0.2.2",
