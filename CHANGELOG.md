@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-04-07)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`d8a20bb`](https://github.com/stdlib-js/stdlib/commit/d8a20bb7b928d03a81a570edec5cc0e2e6e74b99) - **chore:** use `FLOAT64_MAX_SAFE_NTH_FACTORIAL` [(#6370)](https://github.com/stdlib-js/stdlib/pull/6370) _(by Karan Anand)_
 -   [`9ba3f82`](https://github.com/stdlib-js/stdlib/commit/9ba3f820c5e048c65a7aadb97ae178b40774b315) - **chore:** update random value generation and test messages [(#6343)](https://github.com/stdlib-js/stdlib/pull/6343) _(by Harsh)_
 
