@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`6f8be0f`](https://github.com/stdlib-js/stdlib/commit/6f8be0fdd5145056ad20a71258eff03467025e0c) - **refactor:** update `gammainc` implementation to follow Boost v1.88.0 [(#7619)](https://github.com/stdlib-js/stdlib/pull/7619) _(by Karan Anand)_
 -   [`351de2d`](https://github.com/stdlib-js/stdlib/commit/351de2dfc1513d128bcfce8bf095c24fb4cc18f2) - **docs:** fix description _(by Karan Anand)_
 -   [`9b2a8b1`](https://github.com/stdlib-js/stdlib/commit/9b2a8b17e3107e9d9081c6c3be8b37ad30110d4a) - **chore:** clean-up descriptions and style _(by Athan Reines)_
 -   [`84c97ba`](https://github.com/stdlib-js/stdlib/commit/84c97bab0446d161f66db024c86420899df4886e) - **feat:** add C implementation for `math/base/special/gammainc` [(#7408)](https://github.com/stdlib-js/stdlib/pull/7408) _(by Karan Anand, stdlib-bot)_

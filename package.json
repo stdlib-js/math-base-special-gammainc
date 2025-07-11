@@ -64,7 +64,6 @@
     "@stdlib/math-base-special-gamma1pm1": "^0.2.2",
     "@stdlib/math-base-special-gammaln": "^0.2.2",
     "@stdlib/math-base-special-ln": "^0.2.4",
-    "@stdlib/math-base-special-log1p": "^0.2.3",
     "@stdlib/math-base-special-log1pmx": "^0.2.3",
     "@stdlib/math-base-special-max": "^0.3.0",
     "@stdlib/math-base-special-min": "^0.2.3",
