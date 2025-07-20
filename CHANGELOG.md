@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-11)
+## Unreleased (2025-07-20)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`e24c36e`](https://github.com/stdlib-js/stdlib/commit/e24c36eb2222eab37f0e9c0819c170cb600d8be7) - **chore:** add empty lines between code generation block comments _(by Philipp Burckhardt)_
 -   [`6f8be0f`](https://github.com/stdlib-js/stdlib/commit/6f8be0fdd5145056ad20a71258eff03467025e0c) - **refactor:** update `gammainc` implementation to follow Boost v1.88.0 [(#7619)](https://github.com/stdlib-js/stdlib/pull/7619) _(by Karan Anand)_
 -   [`351de2d`](https://github.com/stdlib-js/stdlib/commit/351de2dfc1513d128bcfce8bf095c24fb4cc18f2) - **docs:** fix description _(by Karan Anand)_
 -   [`9b2a8b1`](https://github.com/stdlib-js/stdlib/commit/9b2a8b17e3107e9d9081c6c3be8b37ad30110d4a) - **chore:** clean-up descriptions and style _(by Athan Reines)_
@@ -52,11 +53,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Harsh
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
