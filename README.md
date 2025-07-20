@@ -105,38 +105,32 @@ The relationship between the two functions is `Γ(a,x) = γ(a,x) + Γ(a)`.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-gammainc
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-gammainc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var gammainc = require( 'path/to/vendor/umd/math-base-special-gammainc/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.gammainc;
-})();
-</script>
+var gammainc = require( '@stdlib/math-base-special-gammainc' );
 ```
 
 #### gammainc( x, s\[, regularized\[, upper ]] )
@@ -194,15 +188,10 @@ y = gammainc( 2.0, 0.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var gammainc = require( '@stdlib/math-base-special-gammainc' );
 
 var opts = {
     'dtype': 'float64'
@@ -211,11 +200,6 @@ var x = uniform( 100, 0.0, 10.0, opts );
 var s = uniform( 100, 0.0, 10.0, opts );
 
 logEachMap( 'x: %0.4f, \t s: %0.4f, \t f(x,s): %0.4f', x, s, gammainc );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -224,7 +208,103 @@ logEachMap( 'x: %0.4f, \t s: %0.4f, \t f(x,s): %0.4f', x, s, gammainc );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/math/base/special/gammainc.h"
+```
+
+#### stdlib_base_gammainc( x, a, regularized, upper )
+
+Evaluates the [incomplete gamma function][incomplete-gamma-function] for inputs `x` and `a`.
+
+```c
+double out = stdlib_base_gammainc( 0.0, 1.0, true, false );
+// returns 0.0
+
+out = stdlib_base_gammainc( 6.0, 2.0, true, false );
+// returns ~0.9826
+```
+
+The function accepts the following arguments:
+
+-   **x**: `[in] double` input value.
+-   **a**: `[in] double` input value.
+-   **regularized**: `[in] bool` boolean indicating whether to evaluate a regularized incomplete gamma function.
+-   **upper**: `[in] bool` boolean indicating whether to evaluate the upper incomplete gamma function.
+
+```c
+double stdlib_base_gammainc( const double x, const double a, const bool regularized, const bool upper );
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```c
+#include "stdlib/math/base/special/gammainc.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+static double random_uniform( const double min, const double max ) {
+    double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
+    return min + ( v*(max-min) );
+}
+
+int main( void ) {
+    double x;
+    double a;
+    double y;
+    int i;
+
+    for ( i = 0; i < 10; i++ ) {
+        x = random_uniform( 0.0, 1000.0 );
+        a = random_uniform( 1.0, 1000.0 );
+        y = stdlib_base_gammainc( x, a, true, false );
+        printf( "x: %lf, s: %lf, f(x,s): %lf\n", x, a, y );
+    }
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -312,13 +392,13 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/umd
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
-[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1/tree/umd
+[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1
 
-[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv/tree/umd
+[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv
 
-[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln/tree/umd
+[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln
 
 <!-- </related-links> -->
 
