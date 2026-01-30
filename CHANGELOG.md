@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-07-20)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -38,10 +38,10 @@
 -   [`9b2a8b1`](https://github.com/stdlib-js/stdlib/commit/9b2a8b17e3107e9d9081c6c3be8b37ad30110d4a) - **chore:** clean-up descriptions and style _(by Athan Reines)_
 -   [`84c97ba`](https://github.com/stdlib-js/stdlib/commit/84c97bab0446d161f66db024c86420899df4886e) - **feat:** add C implementation for `math/base/special/gammainc` [(#7408)](https://github.com/stdlib-js/stdlib/pull/7408) _(by Karan Anand, stdlib-bot)_
 -   [`0d53bc8`](https://github.com/stdlib-js/stdlib/commit/0d53bc83d3e0bc958aa43d6bf8759e36a586b9cb) - **fix:** correct imports to use `max-nth-factorial` constant _(by Karan Anand)_
--   [`dac7fbc`](https://github.com/stdlib-js/stdlib/commit/dac7fbc738bdf94b2cdbe3de731876d4521ee802) - **docs:** replace manual `for` loop in examples [(#6636)](https://github.com/stdlib-js/stdlib/pull/6636) _(by Harsh, Athan Reines)_
+-   [`dac7fbc`](https://github.com/stdlib-js/stdlib/commit/dac7fbc738bdf94b2cdbe3de731876d4521ee802) - **docs:** replace manual `for` loop in examples [(#6636)](https://github.com/stdlib-js/stdlib/pull/6636) _(by Harsh Yadav, Athan Reines)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`d8a20bb`](https://github.com/stdlib-js/stdlib/commit/d8a20bb7b928d03a81a570edec5cc0e2e6e74b99) - **chore:** use `FLOAT64_MAX_SAFE_NTH_FACTORIAL` [(#6370)](https://github.com/stdlib-js/stdlib/pull/6370) _(by Karan Anand)_
--   [`9ba3f82`](https://github.com/stdlib-js/stdlib/commit/9ba3f820c5e048c65a7aadb97ae178b40774b315) - **chore:** update random value generation and test messages [(#6343)](https://github.com/stdlib-js/stdlib/pull/6343) _(by Harsh)_
+-   [`9ba3f82`](https://github.com/stdlib-js/stdlib/commit/9ba3f820c5e048c65a7aadb97ae178b40774b315) - **chore:** update random value generation and test messages [(#6343)](https://github.com/stdlib-js/stdlib/pull/6343) _(by Harsh Yadav)_
 
 </details>
 
@@ -56,7 +56,7 @@
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
