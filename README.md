@@ -114,6 +114,11 @@ The relationship between the two functions is `Γ(a,x) = γ(a,x) + Γ(a)`.
 To use in Observable,
 
 ```javascript
+gammainc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-gammainc/tags). For example,
+
+```javascript
 gammainc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.3.0-umd/browser.js' )
 ```
 
@@ -126,7 +131,7 @@ var gammainc = require( 'path/to/vendor/umd/math-base-special-gammainc/index.js'
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -200,7 +205,7 @@ y = gammainc( 2.0, 0.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
