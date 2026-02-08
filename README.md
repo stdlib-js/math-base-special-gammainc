@@ -112,7 +112,7 @@ The relationship between the two functions is `Γ(a,x) = γ(a,x) + Γ(a)`.
 ## Usage
 
 ```javascript
-import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@deno/mod.js';
+import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.3.1-deno/mod.js';
 ```
 
 #### gammainc( x, s\[, regularized\[, upper ]] )
@@ -173,7 +173,7 @@ y = gammainc( 2.0, 0.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@deno/mod.js';
+import gammainc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammainc@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
