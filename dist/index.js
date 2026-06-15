@@ -1,4 +1,4 @@
-"use strict";var f=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var E=f(function(le,H){
+"use strict";var f=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(i){throw (e=0, i)}};};var E=f(function(le,H){
 function H0(r,e){var i=1,s=r,a=e;return t;function t(){var u=i;return i*=s/a,s-=1,u}}H.exports=H0
 });var V=f(function(me,R){
 var E0=require('@stdlib/math-base-tools-sum-series/dist'),R0=E();function V0(r,e){var i,s;return s=R0(r,e),i=E0(s),i}R.exports=V0
