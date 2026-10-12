@@ -83,7 +83,7 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-same-value": "^0.2.3",
-    "@stdlib/console-log-each-map": "^0.1.1",
+    "@stdlib/console-log-each-map": "^0.1.2",
     "@stdlib/fs-read-file": "^0.2.3",
     "@stdlib/fs-write-file": "^0.2.3",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.3.1",
